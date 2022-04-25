@@ -34,6 +34,11 @@ namespace EventOrganizer
             set { this.title = value; }
         }
 
+        public EventManager(ParticipantManager participantManager)
+        {
+            this.participantManager = participantManager;
+        }
+
         public EventManager()
         {
             participantManager = new ParticipantManager();

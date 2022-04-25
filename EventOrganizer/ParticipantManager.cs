@@ -58,13 +58,11 @@ namespace EventOrganizer
             {
                 participants.RemoveAt(index);
                 return true;
-
             }
             else
             {
                 return false;
             }
-
         }
     }
 }
