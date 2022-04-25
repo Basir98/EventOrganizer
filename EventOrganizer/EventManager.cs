@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EventOrganizer
 {
-    class EventManager
+    public class EventManager
     {
         private double costPerPerson;
         private double feePerPerson;

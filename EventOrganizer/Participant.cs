@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EventOrganizer
 {
-    class Participant
+    public class Participant
     {
         private Address address;
         private string firstName;

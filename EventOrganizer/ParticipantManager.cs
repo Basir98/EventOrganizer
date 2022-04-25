@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EventOrganizer
 {
-    class ParticipantManager
+    public class ParticipantManager
     {
         private List<Participant> participants;
 
