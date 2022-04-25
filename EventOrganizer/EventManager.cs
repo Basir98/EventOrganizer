@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EventOrganizer
 {
-    class EventManager
+    public class EventManager
     {
         private double costPerPerson;
         private double feePerPerson;
@@ -32,6 +32,11 @@ namespace EventOrganizer
         {
             get { return title; }
             set { this.title = value; }
+        }
+
+        public EventManager(ParticipantManager participantManager)
+        {
+            this.participantManager = participantManager;
         }
 
         public EventManager()
